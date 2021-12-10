@@ -1,0 +1,94 @@
+*{
+    box-shadow: 0px 2px 10px #2B2D42(0, 0, 0.25, 0.25);
+    font-family: Impact, fantasy;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+
+.inicio {
+    height: 150px;
+    width: 50%;
+}
+
+.container-titulo {
+    margin-left: 350px;
+    position: relative;
+}
+
+.container-dados-jogador h2 {
+    margin-left: 270px;
+}
+
+.container-dados-jogador input {
+    border-color: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: none;
+    width: 200px;
+}
+
+.seletor-frases p{
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.informacoes {
+    margin-top: 120px;
+}
+
+.informacoes li{
+    list-style-type: none;
+    margin-left: 320px;
+}
+
+.informacoes img {
+    margin-right: 10px;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    background: none;
+    margin-top: 10px;
+    margin-left: 193px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+.campo-digitacao {
+    margin-left: 220px;
+    border-radius: 5px;
+}
+
+.digitados ul{
+    list-style-type: none;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.placar {
+    position: absolute;
+    margin-left: 750px;
+}
+
+.placar h2 {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.placar table th{
+    width: 150px;
+}
+
+.placar button {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 100px;
+}

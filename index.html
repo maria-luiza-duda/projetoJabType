@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Projeto JabType</title>
+</head>
+<body id="corpo-site" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    
+    <div class="inicio">
+        <div class="container-titulo">
+        <h1>JabType</h1>
+        </div>
+        
+        <div class="container-dados-jogador">
+            <h2>Insira seu nome para jogar:</h2>
+            <input id="nome" type="text" placeholder="Seu nome...">
+        </div>
+    </div>
+
+    <div class="placar">
+        <h2>Placar</h2>
+        <table id="tabela-placar" border ="1">
+            <thead>
+                <th>Usuário</th>
+                <th>Nº de Palavras</th>   
+            </thead> 
+        </table>
+
+        <button id="limpar-placar">Limpar Placar</button>
+    </div>
+
+    <div class="seletor-frases">
+        <p id="seletor-frases" class="frase"></p>
+    </div>
+    
+    <ul class="informacoes">
+        <li><img src="/img/badge-ad.svg"><span id="tamanho-frase"></span> palavras</li>
+        <li><img src="/img/alarm.svg"><span id="tempo">15</span> segundos</li>
+    </ul>
+
+    <div class="campo-digitacao">
+        <textarea id="campo-digitacao" cols="60" rows="7"></textarea>
+    </div>
+
+    <button id="botao-enviar">Enviar</button>
+    <button id="botao-reset">Reset</button><br><br>
+    
+    <div class="digitados">
+        <ul>
+            <li><span id="caracteres-digitados"> 0</span> caracteres digitados</li>
+            <li><span id="palavras-digitadas"> 0</span> palavras digitadas</li>
+        </ul>
+    </div>
+    
+    
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
